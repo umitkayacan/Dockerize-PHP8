@@ -6,7 +6,7 @@ PHP'yi docker üzerinden çalıştırmak için kullanılır.
 # Kurulum
 Repository'i bir dizine clonlayın. Dizin içindeki "docker" dizinine geçiş yapın ve 
 ```bash
-  docker-compose up 
+  docker-compose up -d
 ```
 komutu ile php 8 kurulumu tamamlanır ve container ayağı kalkar. 
 [http://127.0.0.1:8080/](http://127.0.0.1:8080/) veya 
