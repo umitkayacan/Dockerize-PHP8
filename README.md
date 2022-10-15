@@ -24,7 +24,7 @@ komutu ile aşağıda gördüğümüz gibi containerlar listelenecektir.
 
 Şimdi de PHP container'ının içine girip Word kütüphanesini yükleyelim. 
 
-![Uygulama Ekran Görüntüsü](https://img.onl/G61SY)
+![Uygulama Ekran Görüntüsü](https://img.onl/G61SY) 
 
 ```bash
   docker exec -it cc9a10174be5 bash
