@@ -1,16 +1,21 @@
+# Docker ile PHP 8 Kullanımı
+PHP'yi docker üzerinden çalıştırmak için kullanılır. `docker-compose.yml` içinde 
 
-# Dockerize PHP
+- PHP8
 
-PHP'yi docker üzerinden çalıştırmak için kullanılır.
+- NginX (8080 portunu kullanacağız)
+
+image'ları kullanılmıştır.
+
 
 # Kurulum
 Repository'i bir dizine clonlayın. Dizin içindeki "docker" dizinine geçiş yapın ve 
 ```bash
   docker-compose up -d
 ```
-komutu ile php 8 kurulumu tamamlanır ve container ayağı kalkar. 
+komutu ile PHP8 kurulumu tamamlanır ve container ayağı kalkar. 
 [http://127.0.0.1:8080/](http://127.0.0.1:8080/) veya 
-[http://localhost:8080/](http://localhost:8080/) veya adresi ile erişim sağlayabilirsiniz.
+[http://localhost:8080/](http://localhost:8080/) adresi ile erişim sağlayabilirsiniz.
 
 Not: src altındaki public dizine attığınız her dosya container'a kopyalanır.
 
@@ -22,7 +27,7 @@ Not: src altındaki public dizine attığınız her dosya container'a kopyalanı
 ```
 komutu ile aşağıda gördüğümüz gibi containerlar listelenecektir. 
 
-Şimdi de PHP container'ının içine girip Word kütüphanesini yükleyelim. 
+Şimdi ise PHP container'ının içine girip Word kütüphanesini yükleyelim. 
 
 ![Uygulama Ekran Görüntüsü](https://img.onl/G61SY) 
 
